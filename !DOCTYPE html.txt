@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Misi Rahasia: Program untuk Senyuman Anda</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            color: #2e3a87;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+        h1 {
+            color: #ff6347;
+            font-size: 36px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .message {
+            background-color: #ffebcd;
+            border-radius: 15px;
+            padding: 20px;
+            margin-top: 30px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #ff4500;
+        }
+        .footer {
+            margin-top: 50px;
+            font-style: italic;
+            color: #555555;
+        }
+        .button {
+            background-color: #ff6347;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #ff4500;
+        }
+        #video {
+            margin-top: 20px;
+            border: 2px solid #ff6347;
+            width: 80%;
+            max-width: 500px;
+            height: auto;
+        }
+        #codingDisplay {
+            display: none;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-top: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: left;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            max-width: 90%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Misi Rahasia: Program Membuat Anda Tersenyum</h1>
+    <p>*program ini telah melewati berbagai pengujian ketat karena ini adalah misi rahasia yang sangat penting, yaitu membuat nailacuantiks tersenyum. BACA PESAN TERLEBIH DAHULU LALU KLIK UNTUK TERSENYUM DAN LIHAT CODINGAN</p>
+    
+    <div class="message">
+        <p>Saya, Manusia Biasa dengan Identitas Rahasia yang bahkan tidak bisa dilacak oleh CIA (atau mungkin juga Interpol, saya tidak tahu pasti), mulai merancang program ini menggunakan HTML di w3school.com pada tanggal 6 Desember 2024, setelah menyelesaikan tugas Keamanan Komputer pada pukul 00.07 dan selesai pada pukul 01.58</p>
+        <p>Saat ini, saya merasa kehabisan kata-kata untuk membuat anda tersenyum, oleh karena itu saya memutuskan untuk tidak lagi menulis surat. Tapi jangan khawatir, saya TIDAK akan pernah BERHENTI berusaha untuk membuat anda tersenyum, karna misi ini lebih penting dari apapun.</p>
+        <p>Saya selalu memikirkan cara lain untuk itu, sampai akhirnya saya mendapat inspirasi untuk membuat program rahasia sederhana ini. Meskipun program rahasia ini sangat sederhana dan masih memiliki banyak kekurangan, saya SANGAT BERHARAP anda bisa tersenyum karena program sederhana ini.</p>
+    </div>
+
+    <button class="button" onclick="startCamera()">Klik untuk Tersenyum 😊</button>
+
+    <div id="cameraContainer" style="display:none;">
+        <video id="video" autoplay></video>
+        <p><strong>AYO SENYUM!</strong></p>
+        <p>Selamat mengerjakan ujian akhir semester hari ke-5, SEMANGAT DAN TETAP TERSENYUM TERUS YA NAYANIKA.
+
+
+
+    <div class="footer">
+<strong>screenshot dan kirim foto anda ke nomor:</strong> <span style="color: red;">089606633553(NOMOR HENGKER DEPOK)</span><br><span style="color: red; font-weight: bold;"> KALAU MAU SS NOMOR NYA DITUTUP YA KARNA INI MISI RAHASIA DAN NOMOR HARUS DIRAHASIAKAN DAN YANG PALING PENTING JANGAN SEKALI LIHAT!</span></p>
+    </div>
+
+    <button class="button" onclick="toggleCoding()">Lihat Codingan</button>
+
+    <div id="codingDisplay">
+        <h3>Berikut kode program yang membuat saya telat tidur, mana besok kelas pagi. tapi gapapa aman:</h3>
+        <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="id"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Misi Rahasia: Program untuk Senyuman Anda&lt;/title&gt;
+    &lt;style&gt;
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            color: #2e3a87;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+        h1 {
+            color: #ff6347;
+            font-size: 36px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .message {
+            background-color: #ffebcd;
+            border-radius: 15px;
+            padding: 20px;
+            margin-top: 30px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #ff4500;
+        }
+        .footer {
+            margin-top: 50px;
+            font-style: italic;
+            color: #555555;
+        }
+        .button {
+            background-color: #ff6347;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #ff4500;
+        }
+        #video {
+            margin-top: 20px;
+            border: 2px solid #ff6347;
+            width: 80%;
+            max-width: 500px;
+            height: auto;
+        }
+        #codingDisplay {
+            display: none;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-top: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: left;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            max-width: 90%;
+            margin: 0 auto;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+    &lt;h1&gt;Misi Rahasia: Program Membuat Anda Tersenyum&lt;/h1&gt;
+    &lt;p&gt;*program ini telah melewati berbagai pengujian ketat karena ini adalah misi rahasia yang sangat penting, yaitu membuat nailacuantiks tersenyum.&lt;/p&gt;
+    
+    &lt;div class="message"&gt;
+        &lt;p&gt;Saya, Manusia Biasa dengan Identitas Rahasia yang bahkan tidak bisa dilacak oleh CIA (atau mungkin juga Interpol, saya tidak tahu pasti), mulai merancang program ini menggunakan HTML di w3school.com pada tanggal 6 Desember 2024, setelah menyelesaikan tugas Keamanan Komputer pada pukul 00.07 dan selesai pada pukul 01.58&lt;/p&gt;
+        &lt;p&gt;Saat ini, saya merasa kehabisan kata-kata untuk membuat anda tersenyum, oleh karena itu saya memutuskan untuk tidak lagi menulis surat. Tapi jangan khawatir, saya TIDAK akan pernah BERHENTI berusaha untuk membuat anda tersenyum, karna misi ini lebih penting dari apapun.&lt;/p&gt;
+        &lt;p&gt;Saya selalu memikirkan cara lain untuk itu, sampai akhirnya saya mendapat inspirasi untuk membuat program rahasia sederhana ini. Meskipun program rahasia ini sangat sederhana dan masih memiliki banyak kekurangan, saya SANGAT BERHARAP anda bisa tersenyum karena program sederhana ini.&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;button class="button" onclick="startCamera()"&gt;Klik untuk Tersenyum 😊&lt;/button&gt;
+
+    &lt;div id="cameraContainer" style="display:none;"&gt;
+        &lt;video id="video" autoplay&gt;&lt;/video&gt;
+        &lt;p&gt;&lt;strong&gt;AYO SENYUM!&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;Selamat mengerjakan ujian akhir semester hari ke-5, SEMANGAT DAN TETAP TERSENYUM TERUS YA NAYANIKA.&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class="footer"&gt;
+        &lt;strong&gt;screenshot dan kirim foto anda ke nomor:&lt;/strong&gt; &lt;span style="color: red;"&gt;089606633553(NOMOR HENGKER DEPOK)&lt;/span&gt;&lt;br&gt;&lt;span style="color: red; font-weight: bold;"&gt; KALAU MAU SS NOMOR NYA DITUTUP YA KARNA INI MISI RAHASIA DAN NOMOR HARUS DIRAHASIAKAN DAN YANG PALING PENTING JANGAN SEKALI LIHAT!&lt;/span&gt;&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;button class="button" onclick="toggleCoding()"&gt;Lihat Codingan&lt;/button&gt;
+
+    &lt;div id="codingDisplay"&gt;
+        &lt;h3&gt;Berikut adalah Kode Program Saya:&lt;/h3&gt;
+        &lt;pre&gt;
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="id"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Program Rahasia: Misi Membuat Anda Tersenyum&lt;/title&gt;
+            &lt;style&gt;
+                /* Styling untuk halaman */
+                body { font-family: 'Arial', sans-serif; background-color: #f0f8ff; color: #2e3a87; text-align: center; }
+                h1 { color: #ff6347; font-size: 36px; }
+                .button { background-color: #ff6347; color: white; padding: 15px 25px; text-decoration: none; border-radius: 25px; font-size: 18px; }
+                .button:hover { background-color: #ff4500; }
+                #video { border: 2px solid #ff6347; }
+            &lt;/style&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        &lt;!-- Konten Program --&gt;
+        &lt;h1&gt;Program Rahasia&lt;/h1&gt;
+        &lt;button class="button" onclick="startCamera()"&gt;Klik untuk Tersenyum 😊&lt;/button&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+        &lt;/pre&gt;
+    &lt;/div&gt;
+
+    &lt;script&gt;
+        function startCamera() {
+            // Menyembunyikan tombol setelah diklik
+            document.querySelector('.button').style.display = 'none';
+
+            // Menampilkan video kamera
+            document.getElementById('cameraContainer').style.display = 'block';
+
+            // Mengakses kamera
+            navigator.mediaDevices.getUserMedia({ video: true })
+                .then(function(stream) {
+                    const videoElement = document.getElementById('video');
+                    videoElement.srcObject = stream;
+                })
+                .catch(function(error) {
+                    console.error("Tidak dapat mengakses kamera: ", error);
+                });
+        }
+
+        function toggleCoding() {
+            var codingDisplay = document.getElementById('codingDisplay');
+            if (codingDisplay.style.display === 'none') {
+                codingDisplay.style.display = 'block';
+            } else {
+                codingDisplay.style.display = 'none';
+            }
+        }
+    &lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+-->
+
+        </pre>
+    </div>
+
+    <script>
+        function startCamera() {
+            // Menyembunyikan tombol setelah diklik
+            document.querySelector('.button').style.display = 'none';
+
+            // Menampilkan video kamera
+            document.getElementById('cameraContainer').style.display = 'block';
+
+            // Mengakses kamera
+            navigator.mediaDevices.getUserMedia({ video: true })
+                .then(function(stream) {
+                    const videoElement = document.getElementById('video');
+                    videoElement.srcObject = stream;
+                })
+                .catch(function(error) {
+                    console.error("Tidak dapat mengakses kamera: ", error);
+                });
+        }
+
+        function toggleCoding() {
+            var codingDisplay = document.getElementById('codingDisplay');
+            if (codingDisplay.style.display === 'none') {
+                codingDisplay.style.display = 'block';
+            } else {
+                codingDisplay.style.display = 'none';
+            }
+        }
+    </script>
+
+</body>
+</html>
